@@ -1,6 +1,6 @@
 +++
 title = ""
-type = "page"
+type = "home"
 
 +++
 ## blog.duncanhall.net
