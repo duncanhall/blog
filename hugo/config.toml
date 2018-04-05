@@ -1,19 +1,23 @@
-baseURL= "http://blog.duncanhall.net"
-languageCode= "en"
-title= "Hugo Boilerplate"
-paginate = 5
+baseURL = "http://blog.duncanhall.net"
 copyright = "All rights reserved - 2018"
-theme = "hugo-theme-casper"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-
+languageCode = "en"
+paginate = 5
+theme = "hugo-theme-casper"
+title = "Hugo Boilerplate"
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 [params]
-  description = "Welcome to my website"
-  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
-  cover = ""
-  author = "YOUR_NAME"
-  authorlocation = "Earth, Milky Way Galaxy"
-  authorwebsite = ""
-  authorbio= ""
-  logo = ""
-  hjsStyle = "default"
-  paginatedsections = ["posts"]
+author = "YOUR_NAME"
+authorbio = ""
+authorlocation = "Earth, Milky Way Galaxy"
+authorwebsite = ""
+cover = ""
+description = "Welcome to my website"
+hjsstyle = "default"
+logo = ""
+metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+paginatedsections = ["posts"]
