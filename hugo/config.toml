@@ -2,10 +2,10 @@ baseurl = "http://blog.duncanhall.net/"
 canonifyurls = true
 copyright = "Copyright &copy; 2018 - Duncan Hall"
 enableEmoji = true
-paginate = 3
+paginate = 10
 pygmentsCodeFences = true
 summaryLength = 30
-theme = "kiera"
+theme = "hugo-theme-minos"
 title = "blog.duncanhall.net"
 [author]
 facebook = ""
@@ -21,4 +21,4 @@ name = "Home"
 url = "/"
 weight = 1
 [params]
-tagline = "A Hugo theme for creative and technical writing" 
+tagline = "A Hugo theme for creative and technical writing"
