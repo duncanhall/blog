@@ -1,19 +1,23 @@
-baseURL= "http://blog.duncanhall.net"
-languageCode= "en"
-title= "Hugo Boilerplate"
-paginate = 5
-copyright = "All rights reserved - 2018"
-theme = "hugo-theme-casper"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+baseurl = "http://blog.duncanhall.net"
+title = "blog.duncanhall.net"
+copyright = "Copyright &copy; 2018 - Duncan Hall"
+canonifyurls = true
+theme = "kiera"
+
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+    name = "Duncan Hall"
+    github = "duncanhall"
+    gitlab = ""
+    linkedin = ""
+    facebook = ""
+    twitter = "_duncanhall"
+    instagram = ""
 
 [params]
-  description = "Welcome to my website"
-  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
-  cover = ""
-  author = "YOUR_NAME"
-  authorlocation = "Earth, Milky Way Galaxy"
-  authorwebsite = ""
-  authorbio= ""
-  logo = ""
-  hjsStyle = "default"
-  paginatedsections = ["posts"]
+    tagline = "A Hugo theme for creative and technical writing"
