@@ -1,23 +1,24 @@
 baseurl = "http://blog.duncanhall.net"
-title = "blog.duncanhall.net"
-copyright = "Copyright &copy; 2018 - Duncan Hall"
 canonifyurls = true
-theme = "kiera"
-
-paginate = 3
-
-summaryLength = 30
+copyright = "Copyright &copy; 2018 - Duncan Hall"
 enableEmoji = true
+paginate = 3
 pygmentsCodeFences = true
-
+summaryLength = 30
+theme = "kiera"
+title = "blog.duncanhall.net"
 [author]
-    name = "Duncan Hall"
-    github = "duncanhall"
-    gitlab = ""
-    linkedin = ""
-    facebook = ""
-    twitter = "_duncanhall"
-    instagram = ""
-
+facebook = ""
+github = "duncanhall"
+gitlab = ""
+instagram = ""
+linkedin = ""
+name = "Duncan Hall"
+twitter = "_duncanhall"
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 [params]
-    tagline = "A Hugo theme for creative and technical writing"
+tagline = "A Hugo theme for creative and technical writing"
