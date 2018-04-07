@@ -1,5 +1,6 @@
 baseurl = "http://blog.duncanhall.net/"
 defaultContentLanguage = "en"
+destination = "./public"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
 hrefTargetBlank = false
