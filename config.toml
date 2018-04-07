@@ -1,6 +1,5 @@
 baseurl = "http://blog.duncanhall.net/"
 defaultContentLanguage = "en"
-destination = "../dist/"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
 hrefTargetBlank = false
