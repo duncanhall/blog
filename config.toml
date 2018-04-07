@@ -1,12 +1,12 @@
 baseurl = "http://blog.duncanhall.net/"
 defaultContentLanguage = "en"
 destination = "dist"
-publishDir = "dist"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
 hrefTargetBlank = false
 languageCode = "en-us"
 languageLang = "en"
+publishDir = "dist"
 relativeURLs = false
 theme = "hugo-theme-minos"
 title = "blog.duncanhall.net"
