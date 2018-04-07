@@ -39,6 +39,7 @@ line in config.yml. It will appear in your document head meta (for
 Google search results) and in your RSS feed description.
 '''
 author = "Your name"
+smartToc = true
 
 # Site Menus
 # See the Hugo docs for usage in layouts
