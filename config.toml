@@ -1,6 +1,7 @@
 baseurl = "http://blog.duncanhall.net/"
 defaultContentLanguage = "en"
-destination = "./public"
+destination = "dist"
+publishDir = "dist"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
 hrefTargetBlank = false
