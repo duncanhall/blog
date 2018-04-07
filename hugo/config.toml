@@ -1,4 +1,4 @@
-baseurl = "http://blog.duncnahall.net/"
+baseurl = "http://blog.duncanhall.net/"
 defaultContentLanguage = "en"
 destination = "../dist/"
 disableKinds = ["taxonomy", "taxonomyTerm"]
