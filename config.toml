@@ -4,7 +4,7 @@ destination = "dist"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
 hrefTargetBlank = false
-languageCode = "en-us"
+languageCode = "en-gb"
 languageLang = "en"
 publishDir = "dist"
 relativeURLs = false
@@ -16,6 +16,6 @@ name = "Home"
 url = "/"
 weight = 1
 [params]
-author = "Your name"
-description = "Write an awesome description for your new site here. You can edit this\nline in config.yml. It will appear in your document head meta (for\nGoogle search results) and in your RSS feed description.\n"
+author = "Duncan Hall"
+description = "blog.duncanhall.net"
 smarttoc = true
