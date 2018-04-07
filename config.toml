@@ -8,7 +8,7 @@ languageCode = "en-us"
 languageLang = "en"
 relativeURLs = false
 theme = "hugo-theme-minos"
-title = "My New Hugo Site"
+title = "blog.duncanhall.net"
 [[menu.main]]
 identifier = "home"
 name = "Home"
