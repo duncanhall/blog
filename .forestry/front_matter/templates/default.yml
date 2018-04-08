@@ -1,4 +1,6 @@
 ---
+pages:
+- posts/as3-encoded-polyline.md
 hide_body: false
 fields:
 - name: title
