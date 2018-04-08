@@ -4,7 +4,6 @@ date = "2010-03-03T20:20:22.000Z"
 title = "Actionscript Path Correction - No Going Back!"
 
 +++
-
 **Update**: See the [improved solution](http://blog.duncanhall.net/2010/03/actionscript-path-correction-part-2/)
 
 For a project I’m currently working on, I needed a way to remove extremities from a path of consecutive points. The extremities represent points or segments of the path that we want to remove from the route (usually “going back on yourself”), while maintaining the intended course as much possible.
@@ -23,9 +22,8 @@ Each point along the path is tested against the point immediately before and aft
 
 I’ve since [updated](http://blog.duncanhall.net/2010/03/actionscript-path-correction-part-2/) this original version and it’s now available in the [DirectedPath](http://code.google.com/p/duncanhall-lib/source/browse/trunk/net/duncanhall/geom/DirectedPath.as) class. I’ll leave the code below as a reference, as the update does not alter the basic premise of the solution.
 
-```lang-javascript
-function correctPath (points:Array, threshold:Number) : Array
-{
+```
+function correctPath (points:Array, threshold:Number) : Array {
 	var numPoints:int = points.length;
 	var corrected:Array = [];
 	corrected.push(points[0]);
