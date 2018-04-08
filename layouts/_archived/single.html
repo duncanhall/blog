@@ -1,0 +1,16 @@
+{{ partial "head.html" . }}
+
+<body>
+<div id="container">
+    {{ partial "header.html" . }}
+    <section id="main" class="outer">
+        THIS IS AN ARCHIVED POST
+        {{ partial "article.html" . }}
+        {{ if and (not .Params.nocomment) .Site.Params.disqusShortname }}
+            {{ template "_internal/disqus.html" . }}
+        {{ end }}
+    </section>
+    {{ partial "footer.html" . }}
+</div>
+</body>
+</html>
