@@ -1,7 +1,6 @@
 +++
 archive = true
 date = "2010-03-13T16:10:00.000Z"
-draft = true
 title = "Google Maps Flash API & Selectable Copyright Text"
 
 +++
