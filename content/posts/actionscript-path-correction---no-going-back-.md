@@ -22,35 +22,33 @@ Each point along the path is tested against the point immediately before and aft
 
 I’ve since [updated](http://blog.duncanhall.net/2010/03/actionscript-path-correction-part-2/) this original version and it’s now available in the [DirectedPath](http://code.google.com/p/duncanhall-lib/source/browse/trunk/net/duncanhall/geom/DirectedPath.as) class. I’ll leave the code below as a reference, as the update does not alter the basic premise of the solution.
 
-```
-function correctPath (points:Array, threshold:Number) : Array {
-	var numPoints:int = points.length;
-	var corrected:Array = [];
-	corrected.push(points[0]);
- 
-	var p0:Point;
-	var p1:Point;
-	var p2:Point;
-	var da:Number;
-	var db:Number
-	var dc:Number;
-	var c:Number;
-	var n:int = numPoints - 1;
- 
-	for (var i:int = 1; i < n; i++)
-	{
-		p0 = points[i - 1];
-		p1 = points[i];
-		p2 = points[i + 1];
-		da = Point.distance(p0, p1);
-		db = Point.distance(p1, p2);
-		dc = Point.distance(p0, p2);
-		c = Math.acos((da * da + db * db - dc * dc) / (2 * da * db));
- 
-		if ((c * 180 / Math.PI) >= threshold) corrected.push(p1);
-	}
- 
-	corrected.push(points[numPoints - 1]);
-	return corrected;
-}
-```
+    function correctPath (points:Array, threshold:Number) : Array {
+        var numPoints:int = points.length;
+        var corrected:Array = [];
+        corrected.push(points[0]);
+
+        var p0:Point;
+        var p1:Point;
+        var p2:Point;
+        var da:Number;
+        var db:Number
+        var dc:Number;
+        var c:Number;
+        var n:int = numPoints - 1;
+
+        for (var i:int = 1; i < n; i++)
+        {
+            p0 = points[i - 1];
+            p1 = points[i];
+            p2 = points[i + 1];
+            da = Point.distance(p0, p1);
+            db = Point.distance(p1, p2);
+            dc = Point.distance(p0, p2);
+            c = Math.acos((da * da + db * db - dc * dc) / (2 * da * db));
+
+            if ((c * 180 / Math.PI) >= threshold) corrected.push(p1);
+        }
+
+        corrected.push(points[numPoints - 1]);
+        return corrected;
+    }
