@@ -12,7 +12,6 @@ _PolylineEncoder.fromPoints()_
 Takes a `Vector` of `LatLng` objects and returns the encoded string representation:
 
     var points:Vector.<LatLng> = new Vector.<LatLng>();
-    
     points.push(
       new LatLng(38.5, -120.2), 
       new LatLng(40.7, -120.95), 
