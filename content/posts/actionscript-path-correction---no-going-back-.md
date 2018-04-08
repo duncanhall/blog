@@ -4,7 +4,7 @@ date = "2010-03-03T20:20:22.000Z"
 title = "Actionscript Path Correction - No Going Back!"
 
 +++
-**Update**: See the [improved solution](http://blog.duncanhall.net/2010/03/actionscript-path-correction-part-2/)
+**Update**: See the [improved solution](http://blog.duncanhall.net/posts/actionscript-path-correction-part-2/)
 
 For a project I’m currently working on, I needed a way to remove extremities from a path of consecutive points. The extremities represent points or segments of the path that we want to remove from the route (usually “going back on yourself”), while maintaining the intended course as much possible.
 
