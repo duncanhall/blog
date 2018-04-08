@@ -2,6 +2,7 @@
 date = "2010-02-28T21:22:42.000Z"
 draft = true
 title = "Actionscript AS3 TextButton Class"
+type = "default"
 
 +++
 The [TextButton](http://code.google.com/p/duncanhall-lib/source/browse/trunk/net/duncanhall/components/TextButton.as) Class provides a method for creating button components based on simple text labels. It’s something that’s often overlooked in many component sets, but since writing it I’ve found it to be invaluable in almost all of my projects.
