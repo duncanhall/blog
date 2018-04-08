@@ -1,7 +1,6 @@
 +++
 archive = true
 date = "2012-03-15T19:15:37.000Z"
-draft = true
 title = "Painting particles with EaselJS and Coffee Physics"
 
 +++
