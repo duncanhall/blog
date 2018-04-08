@@ -1,12 +1,12 @@
 +++
 archive = true
-date = "2012-03-15T19:15:37Z"
+date = "2012-03-15T19:15:37.000Z"
 title = "Painting particles with EaselJS and Coffee Physics"
 
 +++
 As a platform for trying out [EaselJS](http://easeljs.com) I wanted to create a simple particle demo using the [Coffee Physics](https://github.com/soulwire/Coffee-Physics) engine. Through a bit of experimentation and (mainly) curiosity, I ended up with something half particle generator, half generative art tool.
 
-[![](http://blog.duncanhall.net/wp-content/uploads/2012/03/sample1.png "Sample output image")](http://blog.duncanhall.net/wp-content/uploads/2012/03/sample1.png)
+![](/uploads/2018/04/08/particles.png)
 
 [View the demo](http://duncanhall.net/canvas) | [View sample images](http://duncanhall.net/canvas/samples) | [View the source ](https://github.com/duncanhall/EaselJS-Coffee-Physics-Demo/)
 
@@ -19,5 +19,3 @@ The idea to ‘paint’ the particles came simply from browsing the [EaselJS API
 Saving the image seemed like an obvious progression, and it was nice to be able to output and save image data without needing a server transaction or, dare I say it, Flash. It is however, not the most polished solution: dump a base64 encoded image string into a browser window and hope it knows what to do with it. Internet Explorer doesn’t know what to do with it.
 
 Both EaselJS and Coffee Physics are in alpha/beta stage right now, so it will be interesting to see how they progress. This was also my first time using [CoffeeScript](http://coffeescript.org/), which seems to be fairly contentious at the moment, but I found it intuitive and enjoyable to work with. The compiler is reliable, and being able to ‘watch’ any files, recompiling them whenever they are saved, makes the write/run cycle no different from writing straight JavaScript. You could even argue the compile step adds extra sanity checking to your code before run time. Either way, I’ll definitely be using it again
-
-
