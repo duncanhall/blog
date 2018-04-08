@@ -1,0 +1,12 @@
+---
+hide_body: false
+fields:
+- type: text
+  label: Title
+  name: title
+- type: text
+  label: Date
+  name: date
+- type: boolean
+  label: Draft
+  name: draft
