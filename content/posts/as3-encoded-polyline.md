@@ -15,7 +15,8 @@ Takes a `Vector` of `LatLng` objects and returns the encoded string representati
     points.push(
       new LatLng(38.5, -120.2), 
       new LatLng(40.7, -120.95), 
-      new LatLng(43.252, -126.453));
+      new LatLng(43.252, -126.453)
+    );
       
     var encoded:String = PolylineEncoder.fromPoints(points);
     trace(encoded); //Outputs _p~iF~ps|U_ulLnnqC_mqNvxq`@
@@ -26,7 +27,9 @@ Takes an existing `IPolyline` object and returns the encoded string representati
     var poly:Polyline = new Polyline([
       new LatLng(38.5, -120.2), 
       new LatLng(40.7, -120.95), 
-      new LatLng(43.252, -126.453)]);
+      new LatLng(43.252, -126.453)
+    ]);
+      
     var encoded:String = PolylineEncoder.fromPolyline(poly);
     trace(encoded); //Outputs _p~iF~ps|U_ulLnnqC_mqNvxq`@
 
@@ -46,7 +49,8 @@ In other words, if you are encoding a Polyline purely for storing locational dat
 
     var encodedPoints:String = PolylineEncoder.encodeFromPolyline(existingPolyline);
     var encodedLevels:String = PoylineEncoder.encodeLevels([100]);
-    var encodedPolyline:EncodedPolylineData = new EncodedPolylineData(encodedPoints, 4, encodedLevels, 16)
+    var encodedPolyline:EncodedPolylineData = new EncodedPolylineData(
+      encodedPoints, 4, encodedLevels, 16)
     var decodedPolyline:Polyline = Polyline.fromEncoded(encodedPolyline);
     trace(existingPolyline.getLength() == decodedPolyline.getLength()); //true!
 
