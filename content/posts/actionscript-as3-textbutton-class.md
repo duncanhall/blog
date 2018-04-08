@@ -38,14 +38,14 @@ var downFmt:TextFormat = new TextFormat("Tahoma", 12, 0x00CC99, true);
  
 var button:TextButton = 
   new TextButton("How many times can you click this?", upFmt, overFmt, downFmt);
+  
 button.addEventListener(MouseEvent.CLICK, button_clickHandler);
 addChild(button);
  
 var c:int;
-
 function button_clickHandler (event:MouseEvent) : void {
-	c++;
-	button.text = "That's " + c + " clicks";
+  c++;
+  button.text = "That's " + c + " clicks";
 }
 ```
 
