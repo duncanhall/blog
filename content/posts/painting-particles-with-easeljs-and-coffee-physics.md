@@ -1,10 +1,9 @@
 +++
 archive = true
-date = "2012-03-15T19:15:37.000Z"
+date = "2012-03-15T19:15:37Z"
 title = "Painting particles with EaselJS and Coffee Physics"
 
 +++
-
 As a platform for trying out [EaselJS](http://easeljs.com) I wanted to create a simple particle demo using the [Coffee Physics](https://github.com/soulwire/Coffee-Physics) engine. Through a bit of experimentation and (mainly) curiosity, I ended up with something half particle generator, half generative art tool.
 
 [![](http://blog.duncanhall.net/wp-content/uploads/2012/03/sample1.png "Sample output image")](http://blog.duncanhall.net/wp-content/uploads/2012/03/sample1.png)

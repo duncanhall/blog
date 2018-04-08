@@ -1,10 +1,9 @@
 +++
 archive = true
-date = "2010-03-01T20:49:52.000Z"
+date = "2010-03-01T20:49:52Z"
 title = "UCD And Agile Development since 1936"
 
 +++
-
 After having very recently completed a 2 day session on web usability focussing on [User Centered Design](http://en.wikipedia.org/wiki/User-centered_design), I was struck by a passage in a book I’m currently reading:
 
 > *It is true that we are infected with a spirit of conservatism and would rather make small alterations than large ones. It is disagreeable and troublesome for us to admit that our existing system is radically defective. And it is true that, other things being equal, we prefer simple to complex hypotheses, again from the desire to save ourselves trouble. But if experience leads us to suppose that radical changes are necessary, then we are prepared to make them, even though they do complicate our system. When an observation runs counter to our most confident expectations, the easiest course is to ignore it, or at any rate to explain it away. If we do not do this, it is because we think that, if we leave our system as it is, we shall suffer further disappointments. We think it will increase the efficiency of our system as an instrument of prediction if we make it compatible with the hypothesis that the unexpected observation occured. Whether we are right in thinking this is a question which cannot be settled by argument. We can only wait and see if our new system is successful in practice. If it is not, we alter it once again.*

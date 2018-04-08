@@ -1,10 +1,9 @@
 +++
 archive = true
-date = "2010-03-06T13:57:10.000Z"
+date = "2010-03-06T13:57:10Z"
 title = "Actionscript Path Correction Part 2"
 
 +++
-
 After my initial success in [removing dead ends and backtracking from a directed path](http://blog.duncanhall.net/2010/03/actionscript-path-correction-no-going-back/), I realised I was only half way to solving the problem. In the [original post](http://blog.duncanhall.net/2010/03/actionscript-path-correction-no-going-back/), points A, B and C were all single point digressions away from the main path.  
 ![](/content/images/2015/02/PathCorrectA.png)
 

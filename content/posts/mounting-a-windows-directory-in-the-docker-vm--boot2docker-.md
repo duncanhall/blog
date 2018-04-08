@@ -1,10 +1,9 @@
 +++
 archive = true
-date = "2014-12-15T21:21:45.000Z"
+date = "2014-12-15T21:21:45Z"
 title = "Mounting a Windows directory in the Docker VM (boot2docker)"
 
 +++
-
 If you’re building a Docker image on Windows you’ll want to make your application files available to the Docker VM for inclusion in the container.
 
 Assuming you have installed [boot2docker](https://github.com/boot2docker/boot2docker "boot2docker") and enabled [hardware virtualization](http://www.sysprobs.com/disable-enable-virtualization-technology-bios "hardware virtualization"), your Windows `Users` directory will automatically be available inside the Docker VM under the root directory.

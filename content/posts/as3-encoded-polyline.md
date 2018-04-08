@@ -1,6 +1,6 @@
 +++
 archive = true
-date = "2010-02-27T14:21:33.000Z"
+date = "2010-02-27T14:21:33Z"
 title = "AS3 Encoded Polyline Algorithm For Google Maps"
 
 +++
