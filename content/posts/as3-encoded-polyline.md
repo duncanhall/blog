@@ -1,5 +1,5 @@
 +++
-date = "27/02/2010, 14:21:33 GMT+0000 (GMT)"
+date = "2010-02-27T14:21:33.000Z"
 draft = true
 title = "AS3 Encoded Polyline Algorithm For Google Maps"
 
