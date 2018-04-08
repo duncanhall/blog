@@ -1,7 +1,6 @@
 +++
 archive = true
 date = "2013-11-10T18:20:03.000Z"
-draft = true
 title = "Javascript Wave Equation"
 
 +++
