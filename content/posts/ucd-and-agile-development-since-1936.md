@@ -1,7 +1,6 @@
 +++
 archive = true
 date = "2010-03-01T20:49:52.000Z"
-draft = true
 title = "UCD And Agile Development since 1936"
 
 +++
