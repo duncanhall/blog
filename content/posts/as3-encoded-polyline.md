@@ -11,7 +11,6 @@ The [Encoded Polyline Algorithm Format](http://code.google.com/apis/maps/documen
 _PolylineEncoder.fromPoints()_  
 Takes a `Vector` of `LatLng` objects and returns the encoded string representation:
 
-{{< highlight actionscript >}}
     var points:Vector.<LatLng> = new Vector.<LatLng>();
     
     points.push(
@@ -20,9 +19,7 @@ Takes a `Vector` of `LatLng` objects and returns the encoded string representati
       new LatLng(43.252, -126.453));
       
     var encoded:String = PolylineEncoder.fromPoints(points);
-    
     trace(encoded); //Outputs _p~iF~ps|U_ulLnnqC_mqNvxq`@
-{{< / highlight >}}
 
 _PolylineEncoder.fromPolyline()_  
 Takes an existing `IPolyline` object and returns the encoded string representation:
