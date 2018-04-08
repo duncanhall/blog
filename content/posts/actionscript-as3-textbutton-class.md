@@ -1,5 +1,5 @@
 +++
-date = "2010-02-28T21:22:42.000Z"
+date = "2010-02-28T21:22:42Z"
 draft = true
 title = "Actionscript AS3 TextButton Class"
 type = "default"
