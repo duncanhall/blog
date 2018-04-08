@@ -4,7 +4,6 @@ date = "2010-03-13T16:10:00.000Z"
 title = "Google Maps Flash API & Selectable Copyright Text"
 
 +++
-
 When using the Google Maps Flash API you are required to display the relevant copyright notice for the tiles currently being shown. This is handled internally by the API and is generally not a problem. However, the current version of the SWC provided (1.18) chooses to handle the copyright text as selectable, meaning that the text cursor is displayed when the mouse is anywhere near the bottom 30px of the map. See below for an example
 
 _ MISSING EXAMPLE SWF _
@@ -53,7 +52,6 @@ We’re certainly not deleting or obscuring it, and we’re not actually alterin
         }
     }
 
-</td></tr></table></div>Even when the `MapEvent.MAP_READY` event is fired, it seems the `CopyrightView` object has not yet been added to its parent (or has not been initialized). To get around this, a 1 frame delay is added, at which point the problematic `TextField` can be targeted and we can set the `selectable` property to false. This solution gives us exactly what we’re after, without altering the text or effecting the ‘terms of use’ link.
+Even when the `MapEvent.MAP_READY` event is fired, it seems the `CopyrightView` object has not yet been added to its parent (or has not been initialized). To get around this, a 1 frame delay is added, at which point the problematic `TextField` can be targeted and we can set the `selectable` property to false. This solution gives us exactly what we’re after, without altering the text or effecting the ‘terms of use’ link.
 
 I’m hoping this isn’t an intended feature and that it will change in the next SWC, and in the meantime that the above solution isn’t violating any terms of use.
-
