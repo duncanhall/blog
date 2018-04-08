@@ -1,6 +1,6 @@
 +++
 archive = true
-date = "2010-03-06T13:57:10.000Z"
+date = "2010-03-06T13:57:10Z"
 title = "Actionscript Path Correction Part 2"
 
 +++
