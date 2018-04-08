@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/actionscript-as3-textbutton-class.md
 - posts/as3-encoded-polyline.md
 hide_body: false
 fields:
