@@ -1,7 +1,6 @@
 +++
 archive = true
 date = "2010-03-06T13:57:10.000Z"
-draft = true
 title = "Actionscript Path Correction Part 2"
 
 +++
