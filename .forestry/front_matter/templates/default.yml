@@ -19,3 +19,6 @@ fields:
   type: boolean
   hidden: false
   default: true
+- type: boolean
+  name: archive
+  label: Archive
